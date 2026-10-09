@@ -1,0 +1,12 @@
+{
+  "name": "fullstack-intern-coding-challenge-roxiler-systems",
+  "version": "1.0.0",
+  "description": "Roxiler Systems FullStack Coding Challenge - Store Rating System",
+  "scripts": {
+    "setup:backend": "cd backend && npm install && npx prisma db push && npm run seed",
+    "setup:frontend": "cd frontend && npm install",
+    "setup": "npm run setup:backend && npm run setup:frontend",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run dev"
+  }
+}
